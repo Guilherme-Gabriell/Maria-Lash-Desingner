@@ -1,5 +1,25 @@
 /*font-family: "VT323", monospace;*/
+* {
+    margin: 0;
+    padding: 0;
+    border: o;
+}
 
 body {
     font-family: "Poppins", sans-serif;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 32px;
+    background-color: #221f1f;
+}
+
+.header-links a {
+    font-family: "VT323", monospace;
+    font-size: 24px;
+    text-decoration: none;
+    color: #daa520;
 }
