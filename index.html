@@ -14,22 +14,22 @@
 <body>
     <header>
         <div class="header-links">
-            <a href="#">Inicio</a>
-            <a href="#">Sobre</a>
-            <a href="#">Atendimentos</a>
-            <a href="#">Contato</a>
+            <a href="#main">Inicio</a>
+            <a href="#about">Sobre</a>
+            <a href="#atendimentos">Atendimentos</a>
+            <a href="#contacts">Contato</a>
         </div>
     </header>
     <main>
-        <div class="main-section">
+        <div id="main" class="main-section">
             <img class="avatar" src="image/Captura de tela 2024-08-21 124230.png" alt="imagem logo" />
             <h1 class="main-title">"Olá, sou Maria Eduarda,<br /> especialista em Lash Design,</h1>
             <p class="main-description">e estou aqui para realçar a sua beleza com extensões de cílios
                 personalizadas,<br /> perfeitas para destacar o seu olhar e realçar sua autoestima!"</p>
-            <a class="main-button" href="#" target="_blank">Marca Horario</a>
+            <a class="main-button" href="https://api.whatsapp.com/send?phone=5564993259299" target="_blank">Marca Horario</a>
         </div>
         <div class="sections">
-            <section>
+            <section id="about">
                 <div class="section-title-container">
                     <img src="image/Polygon 5.png" alt="icone da seção" />
                     <h2 class="section-title">Sobre</h2>
@@ -41,7 +41,7 @@
                 <div class="about-line-box"></div>
             </section>
             <!--Seção MEus Atendimentos-->
-            <section>
+            <section id="atendimentos">
                 <div class="section-title-container">
                     <img src="image/Polygon 5.png" alt="icone da seção" />
                     <h2 class="section-title">Meus atendimentos</h2>
@@ -49,7 +49,7 @@
                 <!--atendimento volume brasileiro-->
                 <!--Projeto 1-->
                 <div>
-                    <div class="project">
+                    <div class="project project-display">
                         <div class="project-image-container">
                             <img class="project-image" src="image/f8d2f0c1-e0f0-4fc9-8b51-628037af7f92.jpg"
                                 alt="imagem do atendimento" />
@@ -73,14 +73,14 @@
                                 <a class="project-button"
                                     href="https://www.instagram.com/mariaa_lashdesign?igsh=bDk1ZXE4aWxmc2tk"
                                     target="_blank">Ver no Instagram</a>
-                                <a class="project-button" href="#" target="_blank">Marca Horario</a>
+                                <a class="project-button" href="https://api.whatsapp.com/send?phone=5564993259299" target="_blank">Marca Horario</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--Projeto 2-->
                 <div>
-                    <div class="project">
+                    <div class="project project-display">
                         <div class="project-image-container">
                             <img class="project-image" src="image/desingner-simples.jpg" alt="imagem do atendimento" />
                         </div>
@@ -90,26 +90,22 @@
                                 <h3 class="project-title">Design Simples</h3>
                             </div>
                             <div class="project-description-container">
-                                <p class="project-description">E um dos volumes mais populares, um efeito que acompanha
-                                    seus cílios naturais
-                                    trazendo
-                                    mais volume,
-                                    realçando mais o olhar! preenchimento de ate 100% dos fios naturais, durabilidade de
-                                    ate
-                                    20 dias
+                                <p class="project-description">O designer simples e realizado a epilação dos pelos e
+                                    desenha as sobrancelhas de forma que harmonize com seu olhar realçando de forma
+                                    natural.
                                 </p>
                             </div>
                             <div class="project-buttons-container">
                                 <a class="project-button"
                                     href="https://www.instagram.com/mariaa_lashdesign?igsh=bDk1ZXE4aWxmc2tk"
                                     target="_blank">Ver no Instagram</a>
-                                <a class="project-button" href="#" target="_blank">Marca Horario</a>
+                                <a class="project-button" href="https://api.whatsapp.com/send?phone=5564993259299" target="_blank">Marca Horario</a>
                             </div>
                         </div>
                     </div>
                     <!--Projeto 3-->
                     <div>
-                        <div class="project">
+                        <div class="project project-display">
                             <div class="project-image-container">
                                 <img class="project-image" src="image/henna.jpg" alt="imagem do atendimento" />
                             </div>
@@ -119,14 +115,9 @@
                                     <h3 class="project-title">Design com Henna</h3>
                                 </div>
                                 <div class="project-description-container">
-                                    <p class="project-description">E um dos volumes mais populares, um efeito que
-                                        acompanha seus cílios naturais
-                                        trazendo
-                                        mais volume,
-                                        realçando mais o olhar! preenchimento de ate 100% dos fios naturais,
-                                        durabilidade de
-                                        ate
-                                        20 dias
+                                    <p class="project-description">A sobrancelha de henna é uma técnica indicada para
+                                        pessoas que sofrem com falhas nas sobrancelhas, ou então para quem deseja
+                                        realçar o design da Sobrancelha
                                     </p>
                                 </div>
                                 <div class="project-buttons-container">
@@ -138,10 +129,30 @@
                             </div>
                         </div>
             </section>
+            <!-- Contatos-->
+            <section id="contacts">
+                <div class="contacts-container">
+                    <h2 class="section-title">Contatos</h2>
+                    <div class="contacts-links">
+                        <a href="https://www.instagram.com/mariaa_lashdesign?igsh=bDk1ZXE4aWxmc2tk" target="_blank">
+                            <img src="image/instagram.png" alt="Icone do instagram">
+                        </a>
+                        <a href="#" target="_blank">
+                            <img src="image/facebook (1).png" alt="Icone do facebook">
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=5564993259299" target="_blank">
+                            <img src="image/whatsapp.png" alt="Icone do whatsapp">
+                        </a>
+                    </div>
+                </div>
+            </section>
 
         </div>
 
     </main>
+    <footer>
+        <p class="footer-description">Feito com amor por Guilherme-Gabriel </p>
+    </footer>
 </body>
 
 </html>
